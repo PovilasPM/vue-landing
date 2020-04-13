@@ -1,0 +1,69 @@
+// Spacing
+
+// Margin
+.m {
+  &-auto {
+    margin: auto;
+  }
+  &-regular {
+    margin: 1.5rem;
+  }
+  &-l {
+    margin: 5rem;
+  }
+  &-t {
+    margin-top: 1.5rem;
+  }
+  &-b {
+    margin-bottom: 1.5rem;
+  }
+  &-none {
+    margin: 0;
+  }
+}
+
+// Padding
+
+.p {
+  &-md {
+    padding: 1.5rem;
+  }
+  &-sm {
+    padding: 1rem;
+  }
+}
+
+// Text
+
+.t {
+  &-center {
+    text-align: center;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.f {
+  &-xl {
+    font-size: 3rem;
+  }
+  &-l {
+    font-size: 2.5rem;
+  }
+  &-regular {
+    font-size: 1.2rem;
+  }
+  &-sm {
+    font-size: 0.8rem;
+  }
+}
+
+// Display
+
+.d {
+  &-inline {
+    display: inline;
+  }
+}

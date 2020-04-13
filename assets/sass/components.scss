@@ -1,0 +1,108 @@
+// Buttons/links
+
+.button-1 {
+  width: 200px;
+  height: 50px;
+  color: #ebeae6;
+  background-color: #191919;
+  border: none;
+  &:hover {
+    color: #191919;
+    border: 2px solid #191919;
+    background-color: #ebeae6;
+  }
+}
+
+.button-2 {
+  padding: 0;
+  background-color: transparent;
+  color: #191919;
+  border: none;
+  border-bottom: 2px solid #191919;
+  &:hover {
+    border-bottom: 2px solid transparent;
+  }
+}
+
+.link-1 {
+  // general styling;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding-bottom: 0.5rem;
+
+  text-decoration: none;
+  color: #ebeae6;
+  &:hover {
+    border-bottom: 2px solid #ebeae6;
+  }
+}
+.link-2 {
+  text-decoration: none;
+  color: #191919;
+  font-weight: 600;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.link-3 {
+  text-decoration: none;
+  color: #647072;
+  &:hover {
+    color: #ebeae6;
+  }
+}
+
+// Page separation line
+
+.content-line {
+  width: 80%;
+  margin: auto;
+  border: 0.7px solid #d1d0cd;
+}
+
+// Inputs
+
+.input {
+  background-color: #000000;
+  font-size: 1rem;
+  border: none;
+  color: white;
+  &:focus {
+    outline: none;
+  }
+  &--field {
+    width: 300px;
+  }
+  &--submit {
+    cursor: pointer;
+  }
+}
+
+// Containers
+
+.card-cont {
+  padding: 3rem 2rem;
+}
+
+// Text
+
+// Headers
+.header-1 {
+  font-size: 2.5rem;
+}
+.header-2 {
+  font-size: 1.5rem;
+}
+.header-3 {
+  font-size: 3rem;
+}
+.header-4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+// Regular text
+.text-1 {
+font-size: 1.2rem;
+line-height: 2rem;
+}

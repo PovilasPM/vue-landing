@@ -1,0 +1,30 @@
+.slide-controls .slide-arrow {
+  display: inline-block;
+}
+
+/* Pagination styling */
+
+.slide-controls .custom-dots li {
+  margin: 0 0 0 0.5em;
+  display: inline-block;
+  list-style: none;
+}
+.slide-controls .custom-dots li:first-child {
+  margin-left: 0;
+}
+.slide-controls .custom-dots .dot {
+  display: block;
+  width: 18px;
+  height: 18px;
+  text-decoration: none;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slide-controls .custom-dots .slick-active .dot {
+  background-color: #FFFFFF;
+}
+.slide-controls .custom-dots .dot:hover,
+.slide-controls .custom-dots .custom-dots .slick-active .dot:hover {
+  background-color: #191919;
+}

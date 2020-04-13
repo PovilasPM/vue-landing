@@ -1,0 +1,22 @@
+// Mixins
+
+@import 'mixins';
+
+
+// General
+
+@import 'normalize'; //not everything is normalized, e.g. ul;
+@import 'fonts';
+@import 'general';
+@import 'utilities';
+@import 'components';
+
+// Vendors
+// Carousel
+
+@import 'slick-carousel/slick/slick.css';
+@import 'carousel_custom';
+
+// Test
+
+@import 'test';
