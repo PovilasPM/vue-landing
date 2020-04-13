@@ -1,6 +1,7 @@
 # vue-design
 
-> My astounding Nuxt.js project
+> Project developed for learning purposes, to get used to Vue and its components.
+External design has been used as an example to build this site. No responsive features have been added, only desktop version.
 
 ## Build Setup
 
