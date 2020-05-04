@@ -1,3 +1,7 @@
+# vue landing design DEMO
+
+![Landing design DEMO](demo/landing_demo.gif)
+
 # vue-design
 
 > Project developed for learning purposes, to get used to Vue and its components.
